@@ -1,0 +1,57 @@
+
+# ==============================
+# Java / Spring Boot / Maven
+# ==============================
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+**/target/
+hs_err_pid*
+replay_pid*
+
+# ==============================
+# React / Node.js
+# ==============================
+**/node_modules/
+**/build/
+**/dist/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# Environment variables / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+**/application-local.properties
+
+# ==============================
+# IDEs
+# ==============================
+.idea/
+.vscode/
+*.iml
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.temp
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Java tools
+# ==============================
+.mtj.tmp/
+*.ctxt
